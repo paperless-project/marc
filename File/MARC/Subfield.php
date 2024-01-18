@@ -236,6 +236,10 @@ class File_MARC_Subfield
      */
     function isEmpty()
     {
+        if ("0" === $this->data) {
+            return false;
+        }
+
         return empty($this->data);
     }
     // }}}
