@@ -169,7 +169,7 @@ class File_MARC extends File_MARCBASE
 
         case self::SOURCE_STRING:
             $this->type = self::SOURCE_STRING;
-            $this->source = explode(File_MARC::END_OF_RECORD, $source);
+            $this->source = explode(File_MARC::END_OF_RECORD, $source ?? '');
             break;
 
         default:
