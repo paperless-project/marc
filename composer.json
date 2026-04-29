@@ -22,7 +22,7 @@
     ],
     "license": "LGPL-2.1",
     "name": "paperless/marc",
-    "version": "1.0.6",
+    "version": "1.4.2",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=File_MARC",
         "source": "https://github.com/pear/File_MARC"

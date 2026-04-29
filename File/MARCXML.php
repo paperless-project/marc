@@ -160,7 +160,7 @@ class File_MARCXML extends File_MARCBASE
 
         case self::SOURCE_FILE:
             $this->type = self::SOURCE_FILE;
-            $this->source = simplexml_load_string(file_get_contents($source), "SimpleXMLElement", 0, $ns, $is_prefix);
+            $this->source = simplexml_load_file($source, "SimpleXMLElement", 0, $ns, $is_prefix);
             break;
 
         case self::SOURCE_STRING:
