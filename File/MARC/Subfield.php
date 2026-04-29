@@ -234,7 +234,7 @@ class File_MARC_Subfield
      *
      * @return bool True or false
      */
-    function isEmpty()
+    function isEmpty(): bool
     {
         if ("0" === $this->data) {
             return false;
